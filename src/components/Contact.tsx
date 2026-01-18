@@ -38,12 +38,12 @@ const Contact = () => {
       value: "yenumulam97@gmail.com",
       href: "mailto:yenumulam97@gmail.com",
     },
-    {
-      icon: Phone,
-      label: "Phone",
-      value: "+91-7032140087",
-      href: "tel:+917032140087",
-    },
+    // {
+    //   icon: Phone,
+    //   label: "Phone",
+    //   value: "+91-7032140087",
+    //   href: "tel:+917032140087",
+    // },
     {
       icon: MapPin,
       label: "Location",

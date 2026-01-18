@@ -5,8 +5,8 @@ import { GraduationCap, Code2, Award, Users } from "lucide-react";
 
 const stats = [
   { icon: GraduationCap, value: "9.63", label: "CGPA" },
-  { icon: Code2, value: "5+", label: "Projects" },
-  { icon: Award, value: "6+", label: "Achievements" },
+  { icon: Code2, value: "8+", label: "Projects" },
+  { icon: Award, value: "9+", label: "Achievements" },
   { icon: Users, value: "GSSoC", label: "Open Source" },
 ];
 

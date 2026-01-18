@@ -5,6 +5,49 @@ import { Trophy, Award, Star, Rocket, Code, Users, Sparkles } from "lucide-react
 
 const achievements = [
   {
+    title: "LeetCode Weekly Contest 480",
+    organization: "LeetCode",
+    date: "Ongoing",
+    description:
+      "Achieved Global Rank 4158 (rating: 1669) and Rank 531 in CodeChef IICPC Codefest 2025 (Top 2%).",
+    icon: Code,
+  },
+  {
+  title: "Codess Café Mentee",
+  organization: "Codess Café",
+  date: "May 2025",
+  description:
+    "Selected as a Codess Café Mentee from 2,500+ applicants. Participated in mentorship-driven learning focused on technical growth, career development, and community-driven collaboration in tech.",
+  icon: Trophy,
+  highlight: true,
+  },
+  {
+  title: "Agentblazer Champion",
+  organization: "Salesforce",
+  date: "December 2025",
+  description:
+    "Recognized as a Salesforce Agentblazer Champion for 2025. Earned 27 Trailblazer badges by completing hands-on modules in CRM, automation, AI-powered agents, and cloud-based business solutions.",
+  icon: Award,
+  highlight: true,
+},
+  {
+  title: "Semi-Finalist – CXO-Innofest 2025 Hackathon",
+  organization: "Cywayz CXO (Non-Profit Cybersecurity Organization)",
+  date: "June 2025",
+  description:
+    "Selected among the top 200 teams at a national-level hackathon. Built a Zero-Day Attack Detection system focused on identifying previously unknown cybersecurity threats and enhancing proactive defense mechanisms.",
+  icon: Users,
+  highlight: true,
+},
+  {
+    title: "HCL Tech Career Development - AI Track",
+    organization: "HCL Technologies",
+    date: "June 2025",
+    description:
+      "Completed AI with Machine Learning and NLP modules with a 95% score; currently pursuing Deep Learning module.",
+    icon: Sparkles,
+  },
+  {
     title: "Amazon Future Engineer Bootcamp",
     organization: "Amazon",
     date: "March 2025",
@@ -12,14 +55,6 @@ const achievements = [
       "Selected among top 1,000 female engineers across India for Amazon's prestigious AFE Bootcamp.",
     icon: Rocket,
     highlight: true,
-  },
-  {
-    title: "LeetCode Weekly Contest 480",
-    organization: "LeetCode",
-    date: "Ongoing",
-    description:
-      "Achieved Global Rank 4158 (rating: 1689) and Rank 531 in CodeChef IICPC Codefest 2025 (Top 2%).",
-    icon: Code,
   },
   {
     title: "Grace Hopper Celebration Scholarship",
@@ -30,13 +65,13 @@ const achievements = [
     icon: Award,
     highlight: true,
   },
-  {
-    title: "HCL Tech Career Development - AI Track",
-    organization: "HCL Technologies",
-    date: "June 2025",
+   {
+    title: "Open Source Contributor",
+    organization: "Girl Script Summer Of Code",
+    date: "Oct 2024",
     description:
-      "Completed AI with Machine Learning and NLP modules with a 95% score; currently pursuing Deep Learning module.",
-    icon: Sparkles,
+      "Contributed to multiple high-impact web development repositories, enhancing frontend functionality and fixing critical bugs.",
+    icon: Users,
   },
   {
     title: "Gameleon Project Expo - 1st Place",
@@ -46,15 +81,7 @@ const achievements = [
       "Outperformed 100+ teams to win 1st place in a high-pressure gamethon, recognized for innovative gameplay design.",
     icon: Trophy,
     highlight: true,
-  },
-  {
-    title: "Open Source Contributor",
-    organization: "Girl Script Summer Of Code",
-    date: "Oct 2024",
-    description:
-      "Contributed to multiple high-impact web development repositories, enhancing frontend functionality and fixing critical bugs.",
-    icon: Users,
-  },
+  }
 ];
 
 const Achievements = () => {

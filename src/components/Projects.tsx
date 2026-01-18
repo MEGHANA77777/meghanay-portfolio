@@ -5,6 +5,38 @@ import { ExternalLink, Github, Shield, Mic, Gamepad2, Dumbbell, Music, Coffee } 
 
 const projects = [
   {
+  title: "Intelligent Document Chat with RAG",
+  description:
+    "An ongoing project focused on building an intelligent document-based conversational system using Retrieval-Augmented Generation (RAG). The system enables users to upload documents and interact with them through context-aware, accurate AI-powered chat, enhancing information retrieval and understanding.",
+  tech: [
+    "Python",
+    "LangChain",
+    "Vector Databases",
+    "LLMs",
+    "Embeddings",
+    "Retrieval-Augmented Generation (RAG)"
+  ],
+  icon: Shield,
+  github: "https://github.com/MEGHANA77777",
+  date: "Ongoing",
+},
+  {
+  title: "CapyLog",
+  description:
+    "An AI-powered journaling application focused on cognitive reframing to help users develop a more positive outlook on personal experiences. CapyLog encourages mindful reflection by transforming negative thoughts into healthier perspectives and offers a friendly capybara chatbot companion for emotional support and daily interaction.",
+  tech: [
+    "Next.js",
+    "Tailwind CSS",
+    "MongoDB",
+    "Cohere AI",
+    "Passage by OnePassword",
+    "React"
+  ],
+  icon: Coffee,
+  github: "https://github.com/MEGHANA77777/capylog",
+  date: "Ongoing",
+},
+  {
     title: "Zero Day Attack Detection",
     description:
       "Developed a Streamlit-based application for Zero-Day Attack Detection that integrates Explainable AI (XAI) to provide real-time threat detection along with interpretable insights for enhanced cybersecurity decision-making.",
@@ -22,16 +54,6 @@ const projects = [
     icon: Mic,
     github: "https://github.com/MEGHANA77777",
     date: "Feb 2025",
-    featured: true,
-  },
-  {
-    title: "Space Invaders",
-    description:
-      "Secured 1st place among 100+ participants at Gameleon Expo by developing an advanced 'Space Invaders' game in Python using PyGame and Tkinter, showcasing real-time performance and visual precision.",
-    tech: ["Python", "PyGame", "Tkinter", "Game Development"],
-    icon: Gamepad2,
-    github: "https://github.com/MEGHANA77777/PYTHON-PROJECT-SPACE-INVADERS",
-    date: "Oct 2023",
     featured: true,
   },
   {
@@ -53,13 +75,23 @@ const projects = [
     date: "2024",
   },
   {
-    title: "Coffee Machine",
+  title: "Color Lines Game",
+  description:
+    "A classic puzzle game implemented using Python and Tkinter where players align at least five balls of the same color horizontally, vertically, or diagonally. Features include dynamic grid sizes, intelligent pathfinding for valid moves, and a scoring system based on cleared lines.",
+  tech: ["Python", "Tkinter", "Pathfinding Algorithms"],
+  icon: Gamepad2,
+  github: "https://github.com/MEGHANA77777/color-lines-game",
+  date: "2024",
+},
+{
+    title: "Space Invaders",
     description:
-      "A Python-based coffee machine simulator demonstrating object-oriented programming concepts with an interactive command-line interface.",
-    tech: ["Python", "OOP", "CLI"],
-    icon: Coffee,
-    github: "https://github.com/MEGHANA77777/COFFEE-MACHINE",
-    date: "2024",
+      "Secured 1st place among 100+ participants at Gameleon Expo by developing an advanced 'Space Invaders' game in Python using PyGame and Tkinter, showcasing real-time performance and visual precision.",
+    tech: ["Python", "PyGame", "Tkinter", "Game Development"],
+    icon: Gamepad2,
+    github: "https://github.com/MEGHANA77777/PYTHON-PROJECT-SPACE-INVADERS",
+    date: "Oct 2023",
+    featured: true,
   },
 ];
 
